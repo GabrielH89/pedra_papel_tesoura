@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="cronometro" class="cronometro">
+        <div>
+            <div>
+                <span id="minutos">00</span>
+            </div>
+            <div>
+                <span id="segundos">00</span>
+            </div>
+        </div>
+    </div>
+    <div id="jogador">
+        <img src="images/pedra.png" id="pedra1" title="Pedra" onclick="jogar('pedra')">
+        <img src="images/papel.png" id="papel1" title="Papel" onclick="jogar('papel')">
+        <img src="images/tesoura.png" id="tesoura1" title="Tesoura" onclick="jogar('tesoura')">
+    </div>
+    <p>VS</p>
+    <div id="computador">
+        <img src="images/pedra.png" id="pedra2" title="Pedra" onclick="jogar('pedra')">
+        <img src="images/papel.png" id="papel2" title="Papel" onclick="jogar('papel')">
+        <img src="images/tesoura.png" id="tesoura2" title="Tesoura" onclick="jogar('tesoura')">
+    </div>
+    <div id="score_jogador">0</div>
+    <div id="score_computador">0</div>
+    <div></div>
+
+    <Script src="script.js"></script>
+</body>
+</html>

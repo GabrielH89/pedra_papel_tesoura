@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    color: white;
+}
+
+.cronometro {
+    background-color: black;
+    position: fixed;
+    color: white;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    justify-content: space-around;
+    border: 3px solid white;
+    margin-top: -80vh;
+}
+
+.cronometro div {
+    display: inline-block;
+    flex-direction: column;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+P {
+    font-size: 60px;
+    margin-top: -25vh;
+}
+
+
+#jogador {
+    width: 400px;
+    height: 200px;
+    background-color: #FFD700;
+    text-align: center;
+    margin-top: -30vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 5px solid black;
+}
+
+#computador {
+    width: 400px;
+    height: 200px;
+    background-color: #FF8C00;
+    text-align: center;
+    margin-top: -30vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 5px solid black;
+}
+
+img {
+    cursor: pointer;
+    padding: 20px;
+    width: 80px;
+    height: 100px;
+    opacity: 0.5;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+#score_jogador {
+    background-color: #FFFF00;
+    width: 120px;
+    height: 50px;
+    position: fixed;
+    margin-left: -15vw;
+    margin-top: 15vh;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+#score_computador {
+    background-color: #FFA500;
+    width: 120px;
+    height: 50px;
+    position: fixed;
+    margin-left: 15vw;
+    margin-top: 15vh;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+
+
+
+
+
+
+
